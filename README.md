@@ -32,12 +32,15 @@ This is a  data classification or regression task.
    or poor wines. Also, we are not sure if all input variables are relevant. So
    it could be interesting to test feature selection methods. 
 
-## Number of Instances: red wine - 1599; white wine - 4898. 
+### Number of Instances: red wine - 1599; white wine - 4898. 
 
-## Number of Attributes: 11 + output attribute
+### Number of Attributes: 11 + output attribute
   
    Note: several of the attributes may be correlated, thus it makes sense to apply some sort of
    feature selection.
+
+### Missing Attribute Values: None
+
 
 ## Attribute information:
 
@@ -57,8 +60,6 @@ This is a  data classification or regression task.
    11 - alcohol
    Output variable (based on sensory data): 
    12 - quality (score between 0 and 10)
-
-## Missing Attribute Values: None
 
 ###### Citation Request:
   > This dataset is public available for research. The details are described in [Cortez et al., 2009]. 
