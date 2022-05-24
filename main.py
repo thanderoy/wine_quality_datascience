@@ -5,9 +5,8 @@ import seaborn as sb
 import matplotlib.pyplot as plt
 
 # Extract csv data onto a dataframe
-df_red = pd.read_csv('..\resources\winequality-red.csv', sep=';')
-df_white = pd.read_csv('..\resources\winequality-white.csv', sep=';')
-
+df_red = pd.read_csv('.\\resources\\winequality-red.csv', sep=';')
+df_white = pd.read_csv('.\\resources\\winequality-white.csv', sep=';')
 
 print(df_red.head())
 print(df_white.head())
@@ -30,6 +29,7 @@ for data_set in data_sets:
     avg = np.mean(ac)
     stddev = np.std(ac)
     # print (stddev)
+    # print (avg)
 
     def alcohol_cat_value(value):
         if value > (avg + stddev):
