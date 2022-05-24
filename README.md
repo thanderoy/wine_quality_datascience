@@ -1,10 +1,10 @@
-#Title: Wine Quality 
+# Title: Wine Quality 
 This is a  data classification or regression task.
 
-##Sources
+## Sources
    Created by: Paulo Cortez (Univ. Minho), Antonio Cerdeira, Fernando Almeida, Telmo Matos and Jose Reis (CVRVV) @ 2009
    
-##Past Usage:
+## Past Usage:
 
   P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. 
   Modeling wine preferences by data mining from physicochemical properties.
@@ -19,7 +19,7 @@ This is a  data classification or regression task.
   etc. Also, we plot the relative importances of the input variables (as measured by a sensitivity
   analysis procedure).
  
-##Relevant Information:
+## Relevant Information:
 
    The two datasets are related to red and white variants of the Portuguese "Vinho Verde" wine.
    For more details, consult: http://www.vinhoverde.pt/en/ or the reference [Cortez et al., 2009].
@@ -32,14 +32,14 @@ This is a  data classification or regression task.
    or poor wines. Also, we are not sure if all input variables are relevant. So
    it could be interesting to test feature selection methods. 
 
-##Number of Instances: red wine - 1599; white wine - 4898. 
+## Number of Instances: red wine - 1599; white wine - 4898. 
 
-##Number of Attributes: 11 + output attribute
+## Number of Attributes: 11 + output attribute
   
    Note: several of the attributes may be correlated, thus it makes sense to apply some sort of
    feature selection.
 
-##Attribute information:
+## Attribute information:
 
    For more information, read [Cortez et al., 2009].
 
@@ -58,16 +58,16 @@ This is a  data classification or regression task.
    Output variable (based on sensory data): 
    12 - quality (score between 0 and 10)
 
-##Missing Attribute Values: None
+## Missing Attribute Values: None
 
-######Citation Request:
-  >This dataset is public available for research. The details are described in [Cortez et al., 2009]. 
-  >Please include this citation if you plan to use this database:
+###### Citation Request:
+  > This dataset is public available for research. The details are described in [Cortez et al., 2009]. 
+  > Please include this citation if you plan to use this database:
 
-  >P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. 
-  >Modeling wine preferences by data mining from physicochemical properties.
-  >In Decision Support Systems, Elsevier, 47(4):547-553. ISSN: 0167-9236.
+  > P. Cortez, A. Cerdeira, F. Almeida, T. Matos and J. Reis. 
+  > Modeling wine preferences by data mining from physicochemical properties.
+  > In Decision Support Systems, Elsevier, 47(4):547-553. ISSN: 0167-9236.
 
-  >Available at: [@Elsevier] http://dx.doi.org/10.1016/j.dss.2009.05.016
-   >             [Pre-press (pdf)] http://www3.dsi.uminho.pt/pcortez/winequality09.pdf
-   >             [bib] http://www3.dsi.uminho.pt/pcortez/dss09.bib
+  > Available at: [@Elsevier] http://dx.doi.org/10.1016/j.dss.2009.05.016
+   >              [Pre-press (pdf)] http://www3.dsi.uminho.pt/pcortez/winequality09.pdf
+   >              [bib] http://www3.dsi.uminho.pt/pcortez/dss09.bib
